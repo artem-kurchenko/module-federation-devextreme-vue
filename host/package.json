@@ -1,0 +1,21 @@
+{
+  "name": "host",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build  && vite preview --port 5000",
+    "preview": "vite preview --port 5000"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "1.1.7",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.3",
+	"vue-tsc": "^0.39.0"
+}
+}
